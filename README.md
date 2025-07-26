@@ -1,18 +1,33 @@
-# color-picker-extension
-A lightweight Chrome extension to instantly pick colors from any webpage and copy their RGB values to your clipboard. Designed for developers, designers, and anyone working with colors on the web.
+# 🎨 fetchHex Extension
+
+A lightweight Chrome extension that lets you pick **any pixel color** from the screen using the **native EyeDropper API**. The selected color is automatically copied to your clipboard for quick use — perfect for designers, developers, and anyone working with colors.
+
+---
 
 ## Features
- Click anywhere on a webpage to pick colors.
 
- One-click copy to clipboard functionality.
+- Pixel-perfect color selection
+- Uses Chrome's native EyeDropper API
+- No UI interference or DOM manipulation
+- Copies picked color to clipboard (`#RRGGBB`)
+- Escape key to cancel selection
+- One-click use via extension icon
 
- Minimal, user-friendly popup UI.
+---
 
- Lightweight and fast, with no background scripts consuming resources.
+## How It Works
+
+1. Click the extension icon on any webpage.
+2. The browser’s color picker opens.
+3. Click anywhere on the screen to pick a color.
+4. The hex value is copied to your clipboard.
+5. Press `Escape` to cancel at any time.
+
+---
 
 ## Tech Stack
-HTML5, CSS3, JavaScript (Vanilla)
 
-Chrome Extension APIs
-
-
+- Manifest V3
+- JavaScript
+- Chrome EyeDropper API
+- Clipboard API
